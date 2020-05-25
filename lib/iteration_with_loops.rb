@@ -10,5 +10,4 @@ while row_index < find_even_values.count do
       element_index += 1
    end
    row_index += 1
-
 end
