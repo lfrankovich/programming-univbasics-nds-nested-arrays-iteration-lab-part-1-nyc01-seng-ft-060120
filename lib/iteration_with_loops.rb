@@ -9,6 +9,16 @@ while row_index < src.count do
      if element_index % 2 == 0
       p src[row_index][element_index]
       element_index += 1
-   end
+      end
    row_index += 1
+   end
+end
+
+      if src[row_index][element_index].even?
+        p src[row_index][element_index]
+      end
+      element_index += 1
+    end
+    row_index += 1
+  end
 end
