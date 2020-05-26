@@ -11,5 +11,4 @@ while row_index < src.count do
       element_index += 1
    end
    row_index += 1
-   find_even_values
 end
